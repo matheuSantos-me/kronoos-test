@@ -1,0 +1,20 @@
+{
+  "scripts": {
+    "dev": "nodemon index.js",
+    "test": "jest"
+  },
+  "dependencies": {
+    "csv-parser": "^3.0.0",
+    "esm": "^3.2.25",
+    "express": "^4.18.2",
+    "multer": "^1.4.5-lts.1",
+    "nodemon": "^3.0.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.22.10",
+    "@babel/preset-env": "^7.22.10",
+    "babel-jest": "^29.6.2",
+    "jest": "^29.6.2",
+    "supertest": "^6.3.3"
+  }
+}
